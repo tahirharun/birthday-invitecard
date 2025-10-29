@@ -1,4 +1,4 @@
 document.getElementById('rsvpButton').addEventListener('click', function() {
   const rsvpDiv = document.getElementById('rsvpMessage');
-  rsvpDiv.textContent = "RSVP by MOMMY";
+  rsvpDiv.textContent = "RSVP to MOMMY";
 });

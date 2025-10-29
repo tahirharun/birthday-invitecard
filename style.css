@@ -6,6 +6,7 @@ body {
   justify-content: center;
   align-items: center;
   height: 100vh;
+  margin: 0;
 }
 
 .card {
@@ -30,6 +31,11 @@ h1 {
   margin-bottom: 10px;
 }
 
+h2 {
+  color: #cc0066;
+  margin-bottom: 20px;
+}
+
 p {
   color: #cc0066;
   font-size: 16px;
@@ -38,6 +44,11 @@ p {
 
 .details {
   margin-top: 20px;
+  font-weight: bold;
+}
+
+.details p:last-child {
+  color: #ff3399;
   font-weight: bold;
 }
 
