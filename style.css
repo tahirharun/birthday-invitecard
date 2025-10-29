@@ -1,0 +1,71 @@
+body {
+  font-family: 'Comic Sans MS', cursive, sans-serif;
+  background: url('ballerina.webp') no-repeat center center fixed;
+  background-size: cover;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+.card {
+  background: rgba(255, 240, 245, 0.9); 
+  border: 3px dashed #ff66b3;
+  border-radius: 20px;
+  width: 400px;
+  padding: 30px;
+  text-align: center;
+  box-shadow: 0 8px 15px rgba(0,0,0,0.2);
+  position: relative;
+}
+
+.ballerina {
+  width: 100px;
+  margin: 0 auto 20px;
+  display: block;
+}
+
+h1 {
+  color: #ff3399;
+  margin-bottom: 10px;
+}
+
+p {
+  color: #cc0066;
+  font-size: 16px;
+  margin: 5px 0;
+}
+
+.details {
+  margin-top: 20px;
+  font-weight: bold;
+}
+
+.rsvp {
+  margin-top: 20px;
+  color: #fff;
+  background-color: #ff66b3;
+  border: none;
+  padding: 10px 20px;
+  border-radius: 15px;
+  cursor: pointer;
+  font-size: 16px;
+}
+
+.rsvp:hover {
+  background-color: #ff3399;
+}
+
+.ballerina::after {
+  content: "🩰";
+  font-size: 60px;
+  display: block;
+  margin-top: 10px;
+}
+
+#rsvpMessage {
+  margin-top: 15px;
+  color: #ff3399;
+  font-weight: bold;
+  font-size: 18px;
+}
